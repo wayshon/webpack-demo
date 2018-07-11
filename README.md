@@ -55,7 +55,7 @@ npm i -g webpack webpack-dev-server
 - 可以设置成全局变量`ProvidePlugin`
 
 ####demo14
--将全局变量设置成可以require的参数`externals`
+- 将全局变量设置成可以require的参数`externals`
 
 
 
