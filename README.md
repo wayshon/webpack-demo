@@ -1,5 +1,5 @@
 # webpack-demo
-
+看完阮一峰老师的文章，自己敲一遍学习学习。原文地址`https://github.com/ruanyf/webpack-demos`
 
 ####准备工作
 - webpack是一个前端构建系统类似于Grunt and Gulp.
