@@ -1,0 +1,1 @@
+let data = "Hello demo14 Exposing global variables";

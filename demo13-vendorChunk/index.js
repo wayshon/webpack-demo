@@ -1,0 +1,1 @@
+$('#app').text('Hello demo13 VendorChunk');
