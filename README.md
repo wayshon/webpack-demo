@@ -57,6 +57,21 @@ npm i -g webpack webpack-dev-server
 ####demo14
 - 将全局变量设置成可以require的参数`externals`
 
+####demo15
+- 使用`vue-loader`解析`/\.vue$/`文件
+- 注意给vue配置别名
+```
+resolve: {
+    alias: {
+        'vue$': 'vue/dist/vue.esm.js'
+    }
+}
+```
+- 不然在js里 import Vue的时候只能
+```
+import Vue from 'vue/dist/vue.js'
+```
+
 
 
 
