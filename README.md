@@ -1,11 +1,11 @@
 # webpack-demo
+
+####前言
 看完阮一峰老师的文章，自己敲一遍学习学习。原文地址`https://github.com/ruanyf/webpack-demos`
 
 - webpack是一个前端构建系统类似于Grunt and Gulp.
 - 它的功能有点类似于Browserify的模块包，但是它可以做的更多。
 - 安装：`npm i -g webpack webpack-dev-server`
-
-#Demos
 
 ####demo1
 - 入口文件
