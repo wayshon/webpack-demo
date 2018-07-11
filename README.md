@@ -3,10 +3,9 @@
 
 - webpack是一个前端构建系统类似于Grunt and Gulp.
 - 它的功能有点类似于Browserify的模块包，但是它可以做的更多。
-- 安装：</br>
-```
-npm i -g webpack webpack-dev-server
-```
+- 安装：`npm i -g webpack webpack-dev-server`
+
+##Demos
 
 ####demo1
 - 入口文件
