@@ -9,7 +9,7 @@
 npm i -g webpack webpack-dev-server
 ```
 
-#### demo1####
+#### demo1
 - 入口文件
 - 导出文件名和导出路径
 
