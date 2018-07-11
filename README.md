@@ -1,4 +1,4 @@
-# webpack-demo
+## webpack-demo
 看完阮一峰老师的文章，自己敲一遍学习学习。原文地址`https://github.com/ruanyf/webpack-demos`
 
 ###准备工作
@@ -8,8 +8,6 @@
 ```
 npm i -g webpack webpack-dev-server
 ```
-
-##demos
 
 ###demo1
 - 入口文件
