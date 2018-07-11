@@ -19,7 +19,7 @@ npm i -g webpack webpack-dev-server
 - 文件名可用入口文件键名
 
 #### demo3
-- 使用loader可以编译非js文件，如`.jsx``.vue`等等
+- 使用loader可以编译非js文件，如`.jsx .vue`等等
 
 #### demo4
 - 配置loader可以在js里面 require css文件
@@ -70,6 +70,13 @@ resolve: {
 - 不然在js里 import Vue的时候只能
 ```
 import Vue from 'vue/dist/vue.js'
+```
+- 新版本的vue还需要VueLoaderPlugin（不知道从哪个版本开始需要的，反正`2.3.3`的时候不要）
+```
+const { VueLoaderPlugin } = require('vue-loader');
+plugins: [
+    new VueLoaderPlugin(),
+]
 ```
 
 
