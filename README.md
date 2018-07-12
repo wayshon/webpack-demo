@@ -79,6 +79,11 @@ plugins: [
 ]
 ```
 
+#### demo16
+- 因为webpack本身是支持Amd的，所以不需要修改各个js组件的语法。
+- 在resolve里设置alias，相当于requirejs里的require.config。
+- 这里的alias就是为了在import模块的时候指定具体的路径，与上面demo15的vue一样。
+
 
 
 
